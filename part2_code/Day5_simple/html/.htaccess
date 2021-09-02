@@ -1,0 +1,6 @@
+<Files 401test.html>
+AuthType Basic
+AuthName "Please enter your ID and password."
+AuthUserFile /home/pi/Ex2/Day5/html/.htpasswd
+require valid-user
+</Files>
